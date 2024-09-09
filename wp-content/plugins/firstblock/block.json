@@ -1,10 +1,11 @@
 {
-	"apiVersion": 2,
-	"name": "ml-custom-block/firstblock",
-	"title": "First Block",
-	"description": "This is the first block",
-	"category": "text",
-	"icon": "text",
-	"textdomain": "firstblock",
-	"editorScript": "file:./build/index.js"
+  "apiVersion": 2,
+  "name": "ml-custom-block/firstblock",
+  "title": "First Block",
+  "description": "This is the first block",
+  "category": "text",
+  "icon": "text",
+  "textdomain": "firstblock",
+  "editorScript": "file:./build/index.js",
+  "style": "file:./build/style-index.css"
 }
