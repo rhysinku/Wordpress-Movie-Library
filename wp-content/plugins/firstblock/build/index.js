@@ -1,0 +1,1 @@
+(()=>{"use strict";const t=window.wp.blocks,e=window.ReactJSXRuntime;(0,t.registerBlockType)("ml-custom-block/firstblock",{edit:function(){return(0,e.jsx)("p",{children:"Edit"})},save:function(){return(0,e.jsx)("p",{children:"Save"})}})})();
