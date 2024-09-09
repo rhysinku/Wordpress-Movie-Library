@@ -1,14 +1,10 @@
 import { registerBlockType } from "@wordpress/blocks";
-import { useBlockProps } from "@wordpress/block-editor";
+
 import "./style.scss";
+import Edit from "./edit";
+import Save from "./save";
 
 registerBlockType("ml-custom-block/firstblock", {
-  edit: function () {
-    const blockProps = useBlockProps();
-    return <p {...blockProps}>Edit</p>;
-  },
-  save: function () {
-    const saveBlockProps = useBlockProps.save();
-    return <p {...saveBlockProps}>Save</p>;
-  },
+  edit: Edit,
+  save: Save,
 });
